@@ -1,0 +1,489 @@
+.nbg{
+	background:#000;
+	opacity:0.7;
+	width: 100%;
+	height:2000px;
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index: 99;
+}
+.chessTip{
+	border:4px solid #881b0f;
+	width:500px;
+	height:440px;
+	border-radius:15px;
+	background:#ffe9bd;
+	position:fixed;
+	top:20%;
+	left:50%;
+	margin-left:-250px;
+	z-index: 999;
+	.chessTipBorder{
+		border:7px solid #fffaea;
+		width:auto;
+		height:406px;
+		border-radius:15px;
+		padding:10px;
+	}
+	.chessTipBox{
+		width:auto;
+		border:10px solid #f7b678;
+		border-radius:10px;
+		height:386px;
+		position: relative;
+		.chessTipClose{
+			position: absolute;
+			top:-50px;
+			right:-60px;
+			cursor: pointer;
+		}
+		.chessTipTitle{
+			width:90%;
+			height:47px;
+			padding:20px 0 0px 0;
+			margin:0 auto;
+			font-size:16px;
+			color:#9b5e44;
+			h2{
+				font-size:22px;
+				line-height:180%;
+			}
+			img{
+				margin-right:20px;
+				vertical-align:middle;
+			}
+			b{
+				font-size:20px;
+				color:#9b5e44;
+			}
+			span{
+				color:#64c8be;
+				margin-right:20px;
+			}
+			h3{
+				color:#dd2f24;
+				font-size:22px;
+			}
+			p{
+				b.time{
+					font-size:46px;
+					color:#35c8b5;
+				}
+			}
+			.chessDuiShou{
+				position: absolute;
+				right:10px;
+				top:15px;
+				padding-right:65px;
+				font-size:20px;
+				img{
+					vertical-align:middle;
+					margin-left:10px;
+				}
+				.chessPeopleInfo{
+					display:inline-block;
+					color:#9b5e44;
+					font-size:16px;
+					line-height:120%;
+					position: absolute;
+					top:5px;
+					right:0px;
+					b{
+						display:block;
+						background:#9b5e44;
+						color:#fff;
+						text-align:center;
+						line-height:100%;
+						font-size:18px;
+						border-radius:10px;
+					}
+			    }
+			}
+			.chessPeopleInfo{
+					display:inline-block;
+					color:#9b5e44;
+					font-size:16px;
+					line-height:120%;
+					position:static;
+					b{
+						display:block;
+						background:#9b5e44;
+						color:#fff;
+						text-align:center;
+						line-height:100%;
+						font-size:18px;
+						border-radius:10px;
+					}
+			}
+		}
+		.chessTipContent{
+			background:#fff;
+			border:2px solid #f9b478;
+			border-radius:10px;
+			width:90%;
+			height:65%;
+			padding-top:2%;
+			margin:0 auto;
+			p{
+				width:90%;
+				margin:0 auto;
+				color:#ce9f7d;
+				padding:8px 0;
+				font-size:15px;
+			}
+			strong.winnub{
+				font-size:20px;
+				color:#ce9f7d;
+				font-weight:bold;
+			}
+		}
+		p.tr{
+			text-align:right;
+			width:95%;
+			padding-top:10px;
+				a{
+					color:#f26523;
+				}
+		}
+	}
+}
+/*对弈规则*/
+.chessTipGui{
+	width:695px;
+	height:620px;
+	top:10%;
+	.chessTipBorder{
+		height:586px;
+		.chessTipBox{
+			height:566px;
+			b.red{
+              	color:#dd2f24;
+              	font-size:22px;
+              }
+			.chessTipContent{
+					background:#fff;
+					border:2px solid #f9b478;
+					border-radius:10px;
+					width:90%;
+					height:64%;
+					padding-top:5%;
+					margin:0 auto;
+					span.jiaoIcon{
+						margin-right:4px;
+					}
+					b{
+						font-style:15px;
+						color:#9b5e44;
+						display:inline-block;
+						width:90px;
+					}
+					p{
+						width:93%;
+						margin:0 auto;
+						color:#333;
+						padding:8px 0;
+						font-size:15px;
+						strong{
+							color:#ce9f7d;
+							font-weight: normal;
+						}
+						select{
+							border:1px solid #c18663;
+							border-radius:10px;
+							height:30px;
+							font-size:12px;
+							vertical-align:middle;
+						}
+						input{
+                            margin-right:5px;
+						}
+						em{
+							color:#808080;
+							font-size:12px;
+							font-style:normal;
+						}
+						.rangziInput{
+							width:105px;
+							height:30px;
+							border:1px solid #c18663;
+							border-radius:10px;
+							padding-left:5px;
+						}
+					}
+        	}
+        	p.tc{
+        		padding:10px 0;
+        		input{
+        			margin:0 5px;
+        		}
+        	}
+		}
+	}
+}
+/*浏览邀请信息*/
+.chessTipBrowse{
+  		.chessTipTitle{
+              img{
+              	margin-right:5px;
+              }
+              .chessPeopleInfo{
+              	position: relative;
+              	top:10px;
+              }
+              b.red{
+              	color:#dd2f24;
+              	font-size:22px;
+              }
+		}
+		.chessTipBox{
+          .chessTipContent{
+			height:60%;
+			b{
+						font-style:15px;
+						color:#ce9f7d;
+						display:inline-block;
+						font-weight: normal;
+			}
+			strong{
+				font-weight: normal;
+				color:#333;
+				margin-left:20px;
+			}
+		  }
+		}
+		p.tc{
+        		padding:10px 0;
+        		input{
+        			margin:0 5px;
+        		}
+        }
+}
+/*放弃对局*/
+.chessTipSmall{
+	height:250px;
+	.chessTipBorder{
+		height:215px;
+		.chessTipBox{
+			height:195px;
+			h1{
+				text-align:center;
+				color:#9b5e44;
+				font-size:25px;
+				padding:50px 0;
+			}
+		}
+	}
+}
+/*对局邀请*/
+.chessTipInvitation{
+	.chessTipBorder{
+	    .chessTipTitle{
+			text-align:center;
+			b.red{
+				font-size:30px;
+				line-height:150%;
+				display:inline-block;
+				vertical-align:middle;
+			}
+			img{
+				float:none;
+				margin-right:5px;
+				vertical-align:middle;
+			}
+	   }
+	}
+
+}
+/*开始等待*/
+.chessTipWait{
+	width:400px;
+	height:320px;
+	.chessTipBorder{
+		height:285px;
+		.chessTipBox{
+			height:265px;
+			.chessTipContent{
+				height:60%;
+				table{
+					width:90%;
+					margin:0 auto;
+					td{
+						text-align:center;
+						h3{
+							font-size:16px;
+							color:#9b5e44;
+							padding:5px 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/*申请*/
+.chessTipApply{
+	height:280px;
+	.chessTipBorder{
+		height:245px;
+	   .chessTipBox{
+			height:230px;
+			.chessTipTitle{
+				text-align:center;
+				height:auto;
+				padding-bottom:20px;
+			}
+			p.tc{
+				padding-top:20px;
+			}
+	    }
+	}
+}
+.chessTipApplySmall{
+	height:140px;
+	.chessTipBorder{
+		height:105px;
+	   .chessTipBox{
+			height:90px;
+			.chessTipTitle{
+				text-align:center;
+				height:auto;
+				padding-bottom:20px;
+			}
+			p.tc{
+				padding-top:20px;
+			}
+	    }
+	}
+}
+/*自动进入棋局*/
+.chessTipApplyDealy{
+	height:200px;
+	.chessTipBorder{
+		height:165px;
+	   .chessTipBox{
+			height:150px;
+			.chessTipTitle{
+				text-align:center;
+			}
+			p.tc{
+				padding-top:20px;
+			}
+	    }
+	}
+}
+/*倒计时*/
+.CountDown{
+	width:333px;
+	height:28px;
+	border:1px solid #f7b678;
+	background:#ffe7b7;
+	border-radius:20px;
+	text-align:right;
+	padding-right:10px;
+	color:#9b5e44;
+	font-size:15px;
+	line-height:28px;
+	position: relative;
+	.CountDownBox{
+		width:337px;
+		height:24px;
+		border:1px solid #f7b678;
+	    background:url(../images/time_bg.png);
+	    border-radius:20px;
+	    position: absolute;
+	    left:2px;
+	    top:1px;
+	}
+}
+.CountDownTime{
+	text-align:center;
+	font-size:12px;
+	padding-top:5px;
+	color:#9b5e44;
+}
+/*对局界面弹出*/
+.chessUITipSmall{
+	height:250px;
+	.chessTipBorder{
+		height:215px;
+		.chessTipBox{
+			height:195px;
+			h1{
+				text-align:center;
+				color:#9b5e44;
+				font-size:35px;
+				padding:30px 0;
+				font-weight:bold;
+			}
+			h2{
+				text-align:center;
+				font-size:22px;
+				color:#9b5e44;
+				font-weight: normal;
+				padding-bottom:20px;
+			}
+		}
+	}
+}
+.chessUITipBig{
+	height:280px;
+	.chessTipBorder{
+		height:245px;
+		.chessTipBox{
+			height:235px;
+			h1{
+				text-align:center;
+				color:#9b5e44;
+				font-size:35px;
+				padding:20px 0;
+				font-weight:bold;
+				position: relative;
+				.whiteWin{
+					top:8px;
+					right:125px;
+				}
+				.blackWin{
+					top:8px;
+					left:95px;
+				}
+				img{
+					vertical-align:middle;
+					margin-right:10px;
+				}
+				b{
+					font-size:35px;
+				}
+			}
+			h2{
+				text-align:center;
+				font-size:22px;
+				color:#9b5e44;
+				font-weight: normal;
+				padding-bottom:10px;
+			}
+			.tishi{
+				text-align:center;
+				padding:3px 0;
+				font-size:14px;
+				color:#9b5e44;
+				background:#ffcc9c;
+				margin:10px auto;
+			}
+		}
+	}
+}
+/*弹出提示*/
+.lineTip{
+	width: 300px;
+	height: 100px;
+	border:1px solid #e3e3e3;
+	background: #f2f2f2;
+	text-align: center;
+	line-height: 100px;
+	position:fixed;
+	bottom:-100px;
+	right:0px;
+	font-size: 18px;
+	color:#000;
+}

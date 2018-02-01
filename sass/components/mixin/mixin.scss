@@ -1,0 +1,10 @@
+$browser-default-vw: 640px !default;//变量的值可以根据自己需求定义
+$browser-default-vh: 1080px !default;//变量的值可以根据自己需求定义
+
+@function pxTovw($px){//$px为需要转换的字号
+  @return $px / $browser-default-vw * 100vw;
+}
+
+@function pxTovh($px){//$px为需要转换的字号
+  @return $px / $browser-default-vh * 100vh;
+}

@@ -1,0 +1,110 @@
+/*html5*/
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block; margin:0 auto;}
+/*clear*/
+.clearfix:before,.clearfix:after {content:"";display:table;}
+.clearfix:after{clear:both;overflow:hidden;}
+.clearfix{zoom:1;}
+.clear{ clear:both;}
+
+
+.fl{float:left;}
+.fr{float:right;}
+.w1200{width:1200px;margin:0 auto;position:relative;}
+.tc{text-align:center;}
+.red{color:#d00;}
+.blue{color:#6357fa;}
+.ml35{margin-left: 35px;}
+.mb25{margin-bottom:23px;}/*减去2像素边线*/
+.list14 li{
+	font-size: 14px;
+    font-family: 'SimSun';
+    padding: 6px 0 6px 12px;
+    background:url(images/style_dian.jpg) no-repeat left center;
+	b{
+		margin-right:0px;
+	}
+	span.xian{
+		margin:0 5px;
+		color:#ccc;
+	}
+}
+.list12 li{
+	font-size: 14px;
+    font-family: 'SimSun';
+    padding: 6px 0 6px 12px;
+    background:url(images/style_dian1.jpg) no-repeat left center;
+	b{
+		margin-right:0px;
+	}
+	span.xian{
+		margin:0 5px;
+		color:#ccc;
+	}
+}
+.tvlist14 li{
+	font-size:14px;
+	font-family:'SimSun';
+	padding:2px 0 0 20px;
+	margin:0px 0 15px 0;
+	height:22px;
+	width:260px;
+	overflow:hidden;
+	background:url(images/tv_icon.gif) no-repeat 0px 5px;
+	b{
+		margin-right:5px;
+	}
+}
+.w1000{
+	width: 1000px;
+	margin:0 auto;
+}
+.title{
+	width:100%;
+	padding:0 0 5px 0;
+	font-size:18px;
+	font-family:'Microsoft YaHei';
+	img{
+		vertical-align:middle;
+	}
+	input{
+		vertical-align:middle;
+		width:114px;
+		height:28px;
+		border:1px solid #ccc;
+		background: #fff;
+		margin:0 4px;
+		color:#666666;
+		line-height:28px;
+	}
+	span{
+		margin-right:30px;
+		float:left;
+	}
+}
+span.icon_video{
+	display:inline-block;
+	width:15px;
+	height:15px;
+	background:url(images/ico_video.png) no-repeat;
+	vertical-align:middle;
+	margin-top:-3px;
+	margin-right:3px;
+}
+span.icon_vr{
+	display:inline-block;
+	width:16px;
+	height:14px;
+	background:url(images/ico_vr.png) no-repeat;
+	vertical-align:middle;
+	margin-top:-3px;
+	margin-right:3px;
+}
+span.icon_pic{
+	display:inline-block;
+	width:15px;
+	height:14px;
+	background:url(images/ico_pics.png) no-repeat;
+	vertical-align:middle;
+	margin-top:-3px;
+	margin-right:3px;
+}

@@ -1,0 +1,164 @@
+/*训练*/
+.trainTitle{
+	width:915px;
+	height:auto;
+	background:#fff2d7;
+	margin-top:20px;
+	padding:18px 15px;
+	position: relative;
+	img{
+		float:left;
+		margin-right:15px;
+	}
+	b{
+		margin-top:15px;
+		font-size:20px;
+		font-weight: bold;
+		display:block;
+		margin-bottom:8px;
+	}
+	span{
+		font-size:13px;
+		em{
+			color:#35c8b5;
+			font-style:normal;
+		}
+	}
+	.trainDan{
+		position: absolute;
+		width:340px;
+		height:90px;
+		top:15px;
+		left:295px;
+		p{
+			color:#696969;
+			padding:10px 0;
+			span{
+				font-size:13px;
+				float:right;
+			}
+		}
+		p.trainDanBox{
+			width:335px;
+			height:20px;
+			padding:0px;
+			position: relative;
+			b.trainDanBoxLine{
+				display:inline-block;
+				width:100%;
+				height:20px;
+				background:#57b693;
+				position: absolute;
+				left:0px;
+				top:-15px;
+			}
+		}
+	}
+	.trainShow{
+		position: absolute;
+		width:215px;
+		height:90px;
+		top:15px;
+		right:20px;
+		font-size:13px;
+		span{
+			font-size:13px;
+		}
+        p{
+        	color:#696969;
+        }
+	}
+}
+.trainList{
+	width:945px;
+	height:auto;
+	background:#f8f8f8;
+	li{
+		padding:20px;
+		font-size:14px;
+		.trainListTitle{
+			background:#bee784;
+			width:100px;
+			height:50px;
+			line-height:50px;
+			font-size:14px;
+			display:inline-block;
+			text-align:center;
+			font-weight:normal;
+			margin-right:30px;
+		}
+		.trainDanBox{
+			width:335px;
+			height:20px;
+			padding:0px;
+			display:inline-block;
+			position: relative;
+			top:6px;
+			margin-left:60px;
+			margin-right:35px;
+			border:1px solid #474747;
+			b.trainDanBoxLine{
+				display:inline-block;
+				width:100%;
+				height:20px;
+				background:#57b693;
+				position: absolute;
+				left:0px;
+				top:0;
+			}
+		}
+		.trainListOpen{
+			color:#ff6600;
+			font-size:14px;
+			cursor: pointer;
+			float:right;
+			margin:15px;
+			b{
+				margin-left:5px;
+			}
+		}
+		.trainListBox{
+			width:945px;
+			position: relative;
+			left:-20px;
+			height:auto;
+			margin-top:10px;
+			padding-left:20px;
+			padding-bottom:30px;
+			display:block;
+			h3{
+				font-size:14px;
+				color:#404040;
+				padding:20px 0 0 0;
+				font-weight: normal;
+				b{
+					color:#929292;
+				}
+			}
+			dl{
+				width:100%;
+				dt{
+					float:left;
+					margin:20px 40px 0 0;
+					position: relative;
+					width:70px;
+					height: 70px;
+					img{
+						width:70px;
+						height:70px;
+					}
+					.mask{
+						display:inline-block;
+						width:70px;
+						height: 70px;
+						background: #ccc;
+						opacity: .5;
+						position: absolute;
+						top:0px;
+						left:0px;
+					}
+				}
+			}
+		}
+	}
+}

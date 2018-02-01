@@ -1,0 +1,884 @@
+/*学生注册*/
+.logininput{
+	width:340px;
+	height:38px;
+	border-radius:6px;
+	border:1px solid #bababa;
+	font-size:14px;
+	line-height:38px;
+	padding-left:15px;
+}
+.reginput{
+	width:260px;
+	height:38px;
+	border-radius:6px;
+	border:1px solid #bababa;
+	font-size:14px;
+	line-height:38px;
+	padding-left:15px;
+}
+.reginputSmall{
+	width:125px;
+	height:38px;
+	border-radius:6px;
+	border:1px solid #bababa;
+	font-size:14px;
+	line-height:38px;
+	padding-left:15px;
+}
+.yzmButton{
+	width:128px;
+	height:40px;
+	background:#b8e37b;
+	border:none;
+	border-radius:6px;
+	margin-left:8px;
+}
+.submitButton{
+	width:265px;
+	height:37px;
+	background:#ffba15;
+	text-align:center;
+	line-height:37px;
+	border:none;
+	border-radius:7px;
+	font-size:16px;
+	color:#fff;
+}
+.loginButton{
+	width:340px;
+	height:37px;
+	background:#ffba15;
+	text-align:center;
+	line-height:37px;
+	border:none;
+	border-radius:7px;
+	font-size:16px;
+	color:#fff;
+}
+.smallButton{
+	width:96px;
+	height:37px;
+	background:#ffba15;
+	text-align:center;
+	line-height:37px;
+	border:none;
+	border-radius:7px;
+	font-size:16px;
+	color:#fff;
+}
+.upJiaoButton{
+	display:inline-block;
+	width:10px;
+	height:9px;
+	background:url(../images/up_jiao.png) no-repeat;
+}
+.downJiaoButton{
+	display:inline-block;
+	width:10px;
+	height:9px;
+	background:url(../images/down_jiao.png) no-repeat;
+}
+.accountIcon{
+	display:inline-block;
+	width:24px;
+	height:27px;
+	background:url(../images/account_icon.png) no-repeat;
+}
+.mobileIcon{
+	display:inline-block;
+	width:63px;
+	height:68px;
+	background:url(../images/mobile_icon.png) no-repeat;
+}
+.loginIcon{
+	display:inline-block;
+	width:63px;
+	height:63px;
+	background:url(../images/login_icon.png) no-repeat;
+}
+.editIcon{
+	display:inline-block;
+	width:19px;
+	height:21px;
+	background:url(../images/edit_icon.png) no-repeat;
+}
+.safeIconLogin{
+	display:inline-block;
+	width:36px;
+	height:36px;
+	background:url(../images/safe_icon.png) no-repeat;
+}
+.safeIconMobile{
+	display:inline-block;
+	width:36px;
+	height:36px;
+	background:url(../images/safe1_icon.png) no-repeat;
+}
+.titleIcon{
+	display:inline-block;
+	width:92px;
+	height:49px;
+	background:url(../images/title_icon.png) no-repeat;
+}
+.leijiIcon{
+	display:inline-block;
+	width:32px;
+	height:32px;
+	background:url(../images/chess_leiji_icon.png) no-repeat;
+}
+.huoshengIcon{
+	display:inline-block;
+	width:32px;
+	height:32px;
+	background:url(../images/chess_huosheng_icon.png) no-repeat;
+}
+.baibeiIcon{
+	display:inline-block;
+	width:32px;
+	height:32px;
+	background:url(../images/chess_baibei_icon.png) no-repeat;
+}
+.jifenIcon{
+	display:inline-block;
+	width:32px;
+	height:32px;
+	background:url(../images/chess_jifen_icon.png) no-repeat;
+}
+.upIcon{
+	display:inline-block;
+	width:13px;
+	height:12px;
+	background:url(../images/up.png) no-repeat;
+}
+.vsIcon{
+	display:inline-block;
+	width:59px;
+	height:36px;
+	background:url(../images/vs.png) no-repeat;
+}
+.vsBigIcon{
+	display:inline-block;
+	width:77px;
+	height:42px;
+	background:url(../images/vs_big.png) no-repeat;
+}
+.chessListIcon{
+	display:inline-block;
+	width:24px;
+	height:15px;
+	background:url(../images/chess_offlist_icon.png) no-repeat;
+}
+.chessListIconActive{
+	display:inline-block;
+	width:24px;
+	height:15px;
+	background:url(../images/chess_onlist_icon.png) no-repeat;
+}
+.chessKuaiIcon{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:url(../images/chess_offkuai_icon.png) no-repeat;
+}
+.chessKuaiIconActive{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:url(../images/chess_onkuai_icon.png) no-repeat;
+}
+.chakanInput{
+	display:inline-block;
+	width:159px;
+	height:53px;
+	border:none;
+	background:url(../images/chakan.png) no-repeat;
+}
+.xlchakanInput{
+	display:inline-block;
+	width:140px;
+	height:40px;
+	border:none;
+	background:url(../images/chakan.png) no-repeat;
+	background-size:cover;
+}
+.tijiaoIcon{
+	display:inline-block;
+	width:27px;
+	height:23px;
+	background:url(../images/tijiao_icon.png) no-repeat;
+	vertical-align:bottom;
+}
+.tiliangIcon{
+	display:inline-block;
+	width:27px;
+	height:23px;
+	background:url(../images/tiliang_icon.png) no-repeat;
+	vertical-align:bottom;
+}
+.zhengqueIcon{
+	display:inline-block;
+	width:27px;
+	height:23px;
+	background:url(../images/zhengque_icon.png) no-repeat;
+	vertical-align:bottom;
+}
+.startActive{
+	display:inline-block;
+	width:15px;
+	height:14px;
+	background:url(../images/start_active.png) no-repeat;
+}
+.startunActive{
+	display:inline-block;
+	width:15px;
+	height:14px;
+	background:url(../images/start_unactive.png) no-repeat;
+}
+.autoChessInput{
+	width:116px;
+	height:32px;
+	background:url(../images/autochess.png) no-repeat;
+	border:none;
+}
+.setTingIcon{
+	display:inline-block;
+	vertical-align:middle;
+	width:16px;
+	height:16px;
+	background:url(../images/seticon.png) no-repeat;
+}
+.helpIcon{
+	display:inline-block;
+	vertical-align:middle;
+	width:16px;
+	height:16px;
+	background:url(../images/helpicon.png) no-repeat;
+}
+.duiIcon{
+	display:inline-block;
+	vertical-align:middle;
+	width:22px;
+	height:22px;
+	background:url(../images/dui_icon.png) no-repeat;
+}
+.lineIcon{
+	display:inline-block;
+	vertical-align:middle;
+	width:27px;
+	height:29px;
+	background:url(../images/line_icon.png) no-repeat;
+}
+.ctorl_up{
+	display:inline-block;
+	vertical-align:middle;
+	width:12px;
+	height:13px;
+	background:url(../images/up_icon.png) no-repeat;
+}
+.ctorl_down{
+	display:inline-block;
+	vertical-align:middle;
+	width:12px;
+	height:13px;
+	background:url(../images/down_icon.png) no-repeat;
+}
+.systemIcon{
+	display:inline-block;
+	vertical-align:middle;
+	width:21px;
+	height:22px;
+	background:url(../images/system_icon.png) no-repeat;
+}
+.tipIcon{
+	display:inline-block;
+	vertical-align:middle;
+	width:17px;
+	height:15px;
+	background:url(../images/tip_icon.png) no-repeat;
+}
+.jiaoIcon{
+	display:inline-block;
+	vertical-align:middle;
+	width:12px;
+	height:12px;
+	background:url(../images/jiao_icon.png) no-repeat;
+}
+.chessTipClose{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	background:url(../images/tip_close.png) no-repeat;
+}
+.winIcon{
+	display:inline-block;
+	width:34px;
+	height:34px;
+	position: absolute;
+	background:url(../images/huosheng_icon.png) no-repeat;
+}
+.taskTrueIcon{
+	display:inline-block;
+	width:15px;
+	height:15px;
+	position: absolute;
+	background:url(../images/task_true_icon.png) no-repeat;
+}
+.taskErrorIcon{
+	display:inline-block;
+	width:15px;
+	height:15px;
+	position: absolute;
+	background:url(../images/task_error_icon.png) no-repeat;
+}
+.InvitationButton{
+	color:#ff6600;
+}
+.win{
+	display:inline-block;
+	width:21px;
+	height:21px;
+	color:#fff;
+	line-height:21px;
+	text-align:center;
+	background:#a93e33;
+	border-radius:3px;
+	margin-right:5px;
+	vertical-align:middle;
+}
+.lose{
+	display:inline-block;
+	width:21px;
+	height:21px;
+	color:#fff;
+	line-height:21px;
+	text-align:center;
+	background:#434343;
+	border-radius:3px;
+	margin-right:5px;
+	vertical-align:middle;
+}
+/*教师端icon*/
+.teaceher_icon{
+	display:inline-block;
+	width:19px;
+	height:18px;
+	background:url(../images/teacher_icon.png) no-repeat;
+}
+.teaceher_icon1{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:url(../images/teacher_icon1.png) no-repeat;
+}
+.teaceher_icon2{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:url(../images/teacher_icon2.png) no-repeat;
+}
+.teaceher_icon3{
+	display:inline-block;
+	width:19px;
+	height:18px;
+	background:url(../images/teacher_icon3.png) no-repeat;
+}
+.teaceher_icon4{
+	display:inline-block;
+	width:19px;
+	height:18px;
+	background:url(../images/teacher_icon4.png) no-repeat;
+}
+.teaceher_icon_hover{
+	display:inline-block;
+	width:19px;
+	height:18px;
+	background:url(../images/teacher_icon_hover.png) no-repeat;
+}
+.teaceher_icon1_hover{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:url(../images/teacher_icon1_hover.png) no-repeat;
+}
+.teaceher_icon2_hover{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:url(../images/teacher_icon2_hover.png) no-repeat;
+}
+.teaceher_icon3_hover{
+	display:inline-block;
+	width:19px;
+	height:18px;
+	background:url(../images/teacher_icon3_hover.png) no-repeat;
+}
+.teaceher_icon4_hover{
+	display:inline-block;
+	width:19px;
+	height:18px;
+	background:url(../images/teacher_icon4_hover.png) no-repeat;
+}
+.jiao_open{
+	display:inline-block;
+	width:10px;
+	height:10px;
+	background:url(../images/jiao_open.png) no-repeat center center;
+}
+/*弹出框按钮*/
+.agreeButton{
+	border:none;
+	width:115px;
+	height:53px;
+	background:url(../images/agree.png) no-repeat;
+}
+.trueButton{
+	border:3px solid #fff;
+	border-radius:30px;
+	padding:0 30px;
+	height:50px;
+	font-size:16px;
+	font-weight: bold;
+	background:#e76437;
+	color:#fff;
+	text-align:center;
+	line-height:45px;
+}
+.confirmButton{
+	border:none;
+	width:115px;
+	height:53px;
+	background:url(../images/true_button1.png) no-repeat;
+}
+.acceptButton{
+	border:3px solid #fff;
+	border-radius:30px;
+	padding:0 30px;
+	height:50px;
+	font-size:16px;
+	font-weight: bold;
+	background:#e76437;
+	color:#fff;
+	text-align:center;
+	line-height:45px;
+}
+.errorButton{
+	//border:3px solid #fff;
+	//border-radius:30px;
+	padding:0 30px;
+	height:50px;
+	width:50%;
+	font-size:16px;
+	font-weight: bold;
+	background:#ffab09;
+	color:#fff;
+	text-align:center;
+	line-height:45px;
+	float:left;
+}
+.duiButton{
+	//border:3px solid #fff;
+	//border-radius:30px;
+	padding:0 30px;
+	height:50px;
+	width:50%;
+	font-size:16px;
+	font-weight: bold;
+	background:#146504;
+	color:#fff;
+	text-align:center;
+	line-height:45px;
+	float:left;
+}
+.agreeButton{
+	border:3px solid #fff;
+	border-radius:30px;
+	padding:0 30px;
+	height:50px;
+	font-size:16px;
+	font-weight: bold;
+	background:#e76437;
+	color:#fff;
+	text-align:center;
+	line-height:45px;
+}
+.refuseButton{
+	border:none;
+	width:115px;
+	height:53px;
+	background:url(../images/refuse_button.png) no-repeat;
+}
+.closeButton{
+	border:none;
+	width:115px;
+	height:53px;
+	background:url(../images/close_button.png) no-repeat;
+}
+.abandonButton{
+	border:none;
+	width:115px;
+	height:53px;
+	background:url(../images/abandon_button.png) no-repeat;
+}
+.tijiaoButton{
+	border:none;
+	width:155px;
+	height:53px;
+	background:url(../images/tijiao_button.png) no-repeat;
+}
+.doTaskButton{
+	border:none;
+	width:159px;
+	height:53px;
+	background:url(../images/dotask.png) no-repeat;
+}
+/*棋盘*/
+.qipanBox{
+	display:inline-block;
+	width:pxTovh(92px);
+	height:pxTovh(96px);
+	border-radius:pxTovh(10px);
+	background:url(../images/qipan_bg.png) no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
+.qipanBox:hover{
+	box-shadow: 0 0 pxTovh(15px) #f00;
+}
+.guanqiIcon{
+	display:inline-block;
+	width:pxTovh(92px);
+	height:pxTovh(26px);
+	border-radius:pxTovh(11px);
+	background:url(../images/guanqi_icon.png) no-repeat;
+	background-size: contain;
+	border:none;
+}
+.guanqiIcon:hover{
+	box-shadow: 0 0 pxTovh(15px) #f00;
+}
+.chessButtondefault{
+	display:inline-block;
+	width:109px;
+	height:48px;
+	background:-webkit-linear-gradient(to bottom, #cdf19b, #b6e278);
+	background:linear-gradient(to bottom, #cdf19b, #b6e278);
+	text-align: center;
+	border:3px solid #fff;
+	border-radius: 30px;
+	font-size:18px;
+	font-weight: bold;
+	color: #333;
+	-webkit-box-shadow:3px 3px 4px #bce581 inset;
+  -moz-box-shadow:3px 3px 4px #bce581 inset;
+  box-shadow:3px 3px 4px #bce581 inset;
+}
+.chessButtondefaultother{
+	display:inline-block;
+	width:109px;
+	height:48px;
+	color:#333;
+	background:-webkit-linear-gradient(to bottom, #ffc961, #ffaa07);
+	background:linear-gradient(to bottom, #ffc961, #ffaa07);
+	text-align: center;
+	border:3px solid #fff;
+	border-radius: 30px;
+	font-size:18px;
+	font-weight: bold;
+	-webkit-box-shadow:3px 3px 4px #ffaf15 inset;
+  -moz-box-shadow:3px 3px 4px #ffaf15 inset;
+  box-shadow:3px 3px 4px #ffaf15 inset;
+}
+.chessButtonQiuhe{
+}
+.chessButtonFail{
+}
+.chessButtonShuzi{
+}
+.chessButtonFangqi{
+}
+.chessButtonZanting{
+	display:inline-block;
+	width:115px;
+	height:54px;
+	background:url(../images/chess_button_pause.png) no-repeat;
+	border:none;
+}
+.chessButtonShoushu{
+}
+.chessButtonZuobiao{
+}
+.chessButtonSetting{
+	display:inline-block;
+	width:115px;
+	height:54px;
+	background:url(../images/chess_button_setting.png) no-repeat;
+	border:none;
+}
+.chessButtonQuxiao{
+	display:inline-block;
+	width:115px;
+	height:50px;
+	background:url(../images/chess_button_quxiao.png) no-repeat;
+	background-size:contain;
+	border:none;
+}
+.chessButtonXianshi{
+	display:inline-block;
+	width:115px;
+	height:50px;
+	background:url(../images/chess_button_xianshi.png) no-repeat;
+	background-size:contain;
+	border:none;
+}
+.chessButtonMax{
+	display:inline-block;
+	width:115px;
+	height:50px;
+	background:url(../images/chess_button_max.png) no-repeat;
+	background-size:contain;
+	border:none;
+}
+.chessButtonBeign{
+	display:inline-block;
+	width:22px;
+	height:35px;
+	background:url(../images/chess_button_begin.png) no-repeat;
+	border:none;
+}
+.chessButtonOver{
+	display:inline-block;
+	width:22px;
+	height:35px;
+	background:url(../images/chess_button_over.png) no-repeat;
+	border:none;
+}
+.chessButtonPrevs{
+	display:inline-block;
+	width:27px;
+	height:19px;
+	background:url(../images/chess_button_prevs.png) no-repeat;
+	border:none;
+}
+.chessButtonNexts{
+	display:inline-block;
+	width:27px;
+	height:19px;
+	background:url(../images/chess_button_nexts.png) no-repeat;
+	border:none;
+}
+.chessButtonPrev{
+	display:inline-block;
+	width:20px;
+	height:23px;
+	background:url(../images/chess_button_prev.png) no-repeat;
+	border:none;
+}
+.chessButtonPlay{
+	display:inline-block;
+	width:57px;
+	height:57px;
+	background:url(../images/chess_button_play.png) no-repeat;
+	border:none;
+}
+.chessButtonReplay{
+	display:inline-block;
+	width:202px;
+	height:53px;
+	background:url(../images/chess_button_replay.png) no-repeat;
+	border:none;
+}
+.chessButtonReplayOne{
+	display:inline-block;
+	width:155px;
+	height:53px;
+	background:url(../images/chess_button_replayone.png) no-repeat;
+	border:none;
+}
+.chessButtonCancel{
+	display:inline-block;
+	width:115px;
+	height:53px;
+	background:url(../images/chess_button_cancel.png) no-repeat;
+	border:none;
+}
+.chessButtonFupan{
+	display:inline-block;
+	width:115px;
+	height:53px;
+	background:url(../images/chess_button_fupan.png) no-repeat;
+	border:none;
+}
+.chessButtonQuit{
+	display:inline-block;
+	border:3px solid #fff;
+	border-radius:30px;
+	padding:0 30px;
+	height:50px;
+	font-size:16px;
+	font-weight: bold;
+	background:#e76437;
+	color:#fff;
+	text-align:center;
+	line-height:45px;
+}
+.taskButtonChakan{
+	display:inline-block;
+	width:139px;
+	height:53px;
+	background:url(../images/task_chakan.png) no-repeat;
+	border:none;
+}
+.taskButtonChakanAll{
+	display:inline-block;
+	width:169px;
+	height:53px;
+	background:url(../images/task_chakan_all.png) no-repeat;
+	border:none;
+}
+.taskButtonQuit{
+	display:inline-block;
+	width:139px;
+	height:53px;
+	background:url(../images/task_quit.png) no-repeat;
+	border:none;
+}
+.chessButtonDapu{
+	width:108px;
+	height:35px;
+	background:#4cb093;
+	text-align:center;
+	color:#fff;
+	border:none;
+	border-radius:25px;
+	margin-left:15px;
+}
+.taskInput{
+	background:#cbef98;
+	border:3px solid #fff;
+	border-radius:30px;
+	width:130px;
+	height:50px;
+	font-size:20px;
+	font-weight:bold;
+}
+/*关闭状态*/
+.disabled{
+	background:#ccc;
+	color:#ddd;
+	-webkit-box-shadow:3px 3px 4px #ccc inset;
+  -moz-box-shadow:3px 3px 4px #ccc inset;
+  box-shadow:3px 3px 4px #ccc inset;
+}
+/*radio美化*/
+@keyframes hover-color {
+  from {
+    border-color: #c0c0c0; }
+  to {
+    border-color: #3e97eb; } }
+
+.regular-radio,
+.regular-checkbox {
+  position: absolute;
+  display: none; }
+
+.regular-radio[disabled],
+.regular-checkbox[disabled] {
+  cursor: not-allowed; }
+
+.regular-radio + label,
+.regular-checkbox + label {
+  position: relative;
+  display: block;
+  padding-left: 30px;
+  cursor: pointer;
+  vertical-align: middle; }
+  .regular-radio + label:hover:before,
+  .regular-checkbox + label:hover:before {
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+    animation-name: hover-color; }
+  .regular-radio + label:before,
+  .regular-checkbox + label:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    content: '';
+    border: 1px solid #383838; }
+  .regular-radio + label:after,
+  .regular-checkbox + label:after {
+    position: absolute;
+    display: none;
+    content: ''; }
+
+.regular-radio[disabled] + label,
+.regular-checkbox[disabled] + label {
+  cursor: not-allowed;
+  color: #e4e4e4; }
+  .regular-radio[disabled] + label:hover, .regular-radio[disabled] + label:before, .regular-radio[disabled] + label:after,
+  .regular-checkbox[disabled] + label:hover,
+  .regular-checkbox[disabled] + label:before,
+  .regular-checkbox[disabled] + label:after {
+    cursor: not-allowed; }
+  .regular-radio[disabled] + label:hover:before,
+  .regular-checkbox[disabled] + label:hover:before {
+    border: 1px solid #e4e4e4;
+    animation-name: none; }
+  .regular-radio[disabled] + label:before,
+  .regular-checkbox[disabled] + label:before {
+    border-color: #e4e4e4; }
+
+.regular-radio:checked + label:before,
+.regular-checkbox:checked + label:before {
+  animation-name: none; }
+
+.regular-radio:checked + label:after,
+.regular-checkbox:checked + label:after {
+  display: block; }
+
+.regular-radio + label:before {
+  border-radius: 50%; }
+
+.regular-radio + label:after {
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #35c8b5; }
+
+.regular-radio:checked + label:before {
+  border: 1px solid #3e97eb; }
+
+.regular-radio:checked[disabled] + label:before {
+  border: 1px solid #c9e2f9; }
+
+.regular-radio:checked[disabled] + label:after {
+  background: #c9e2f9; }
+
+.regular-checkbox + label:before {
+  border-radius: 3px; }
+
+.regular-checkbox + label:after {
+  top: 2px;
+  left: 7px;
+  box-sizing: border-box;
+  width: 6px;
+  height: 12px;
+  transform: rotate(45deg);
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
+  border-top: 0;
+  border-left: 0; }
+
+.regular-checkbox:checked + label:before {
+  border: #3e97eb;
+  background: #3e97eb; }
+
+.regular-checkbox:checked[disabled] + label:before {
+  border: #c9e2f9;
+  background: #c9e2f9; }

@@ -1,0 +1,97 @@
+.studentRegmobile{
+    width: 100%;
+    text-align: center;
+    padding-top:20px;
+    .logoBox{
+        padding:10px 0;
+        width:100%;
+        text-align: center;
+        .logo{
+            width: 185px;
+            height: 50px;
+            display: inline-block;
+            background: url(../images/logo.png) no-repeat center center;
+            background-size:contain;
+        }
+    }
+    .regTitle{
+        padding:5px 0;
+        h2{
+            text-align: center;
+        }
+    }
+    .regList{
+        h3{
+            text-align: center;
+            padding:10px 0;
+            font-size:20px;
+        }
+        p{
+            padding:7px 0;
+            text-align: center;
+        }
+        p.tl{
+            text-align: left;
+            font-size:16px;
+            width:70%;
+            margin:0 auto;
+            border-bottom:1px solid #e3e3e3;
+            padding:20px 0;
+            .regular-radio+label{
+                display: inline;
+                padding:0;
+            }
+            select{
+                font-size:16px;
+                width:auto;
+                border:1px solid #f2f2f2;
+            }
+        }
+        p.regText{
+            text-align: left;
+            width:70%;
+            margin:0 auto;
+            font-size:16px;
+        }
+        .regTextc{
+            width:80%;
+            text-align: left;
+            margin:5px auto;
+            font-size: 14px;
+            line-height:180%;
+        }
+    }
+    .regList2{
+        h3{
+            text-align: center;
+            padding:10px 0;
+            font-size:20px;
+        }
+        p{
+            padding:7px 0;
+            text-align: left;
+            width:80%;
+            margin:0 auto;
+            span{
+                width:24%;
+                text-align: left;
+                display: inline-block;
+                font-size: 14px;
+            }
+        }
+        p.regText{
+            text-align: left;
+            width:70%;
+            margin:0 auto;
+            font-size:16px;
+        }
+        .regTextc{
+            width:80%;
+            text-align: left;
+            margin:5px auto;
+            font-size: 14px;
+            line-height:180%;
+        }
+    }
+
+}

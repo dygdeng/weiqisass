@@ -1,0 +1,679 @@
+.chessBody{
+	background:#f3d99b;
+}
+.chessTop{
+	width:100%;
+	height:59px;
+	background:url(../images/chess_top_bg.png) no-repeat top center;
+	margin-top:-2px;
+	.chessTopContent{
+		width:845px;
+		margin:0 auto;
+		padding:15px 250px 0 305px;
+		img{
+			margin-right:100px;
+		}
+		input{
+          margin-left:30px;
+		}
+		span{
+			float:right;
+			margin-top:3px;
+			cursor: pointer;
+			b{
+				margin-left:15px;
+				margin-right:2px;
+			}
+		}
+	}
+}
+.chessRoom{
+	width:100%;
+	max-width: pxTovh(1400px);
+	min-width: pxTovh(1200px);
+	margin:pxTovh(20px) auto;
+	position: relative;
+	height:pxTovh(680px);
+	margin-bottom:pxTovh(30px);
+	.chessRoomList{
+      position: absolute;
+      left:0px;
+      top:0px;
+      width:pxTovh(830px);
+      height:pxTovh(680px);
+      border:1px solid #fdd478;
+      border-radius:10px 10px 0 0;
+      background:#fffaef;
+      .roomTitle{
+      	height:pxTovh(34px);
+      	background:#fff6e3;
+      	border-radius:10px 10px 0 0;
+      	border-bottom:1px solid #ffe199;
+      	padding-top:11px;
+      	font-size:14px;
+      	font-weight:bold;
+      	b{
+      		color:#ff4e00;
+      		font-size:pxTovh(24px);
+      		display:inline-block;
+      		vertical-align:top;
+      		margin-left:10px;
+      		margin-top:-2px;
+      	}
+      	span{
+      		margin-left:pxTovh(20px);
+      		margin-right:6px;
+      	}
+      }
+	}
+	.chessRoomListC{
+		width:100%;
+		height:pxTovh(635px);
+		overflow:hidden;
+	}
+	.chessBox{
+		width:pxTovh(270px);
+		height:pxTovh(190px);
+		padding-top:pxTovh(25px);
+		float:left;
+		h4{
+			text-align:center;
+			font-size:12px;
+			color:#ffa800;
+			font-weight: normal;
+			padding-bottom:pxTovh(15px);
+		}
+		.chessStatus{
+			display:inline-block;
+			width:pxTovh(36px);
+			height:pxTovh(15px);
+			line-height:pxTovh(15px);
+			background:#7ec718;
+			color:#fff;
+			text-align:center;
+			border:1px solid #fff;
+			border-radius:pxTovh(10px);
+			position: absolute;
+		}
+		p{
+			text-align:center;
+			padding-top:pxTovh(10px);
+		}
+		table{
+			td{
+				width:pxTovh(88px);
+				text-align:center;
+                font-size:pxTovh(12px);
+                line-height:150%;
+				img{
+					width:pxTovh(60px);
+					height:auto;
+					cursor: pointer;
+				}
+			}
+			td.chessBoxMiddle{
+                width:pxTovh(92px);
+			}
+		}
+	}
+	.onlinePeople{
+		width:pxTovh(550px);
+		height:pxTovh(415px);
+		border:1px solid #fdd478;
+        border-radius:10px 10px 0 0;
+        background:#ffbd69;
+        position: absolute;
+        top:0px;
+        right:0px;
+        .roomTitle{
+	      	height:pxTovh(38px);
+	      	background:#fff6e3;
+	      	border-radius:pxTovh(10px) pxTovh(10px) 0 0;
+	      	border-bottom:1px solid #ffe199;
+	      	padding-top:7px;
+	      	font-size:pxTovh(14px);
+	      	text-align:right;
+	      	font-weight:bold;
+	      	b{
+	      		color:#ff4e00;
+	      		font-size:pxTovh(24px);
+	      		display:inline-block;
+	      		vertical-align:top;
+	      		margin-left:pxTovh(10px);
+	      	}
+	      	span{
+	      		margin-left:pxTovh(20px);
+	      		margin-right:6px;
+	      		margin-top:-4px;
+	      	}
+	      	select{
+	      		width:pxTovh(105px);
+	      		height:pxTovh(34px);
+	      		border:1px solid #35c8b5;
+	      		margin:0 pxTovh(10px);
+	      		border-radius:5px;
+	      		vertical-align:middle;
+	      	}
+        }
+        table.onlineTitle{
+        	width:pxTovh(495px);
+        	margin:0 auto;
+        	td{
+        		color:#fff;
+        		padding:pxTovh(10px) 0;
+        		font-size::pxTovh(14px);
+        		font-weight: bold;
+        		text-align:center;
+        		span{
+        			margin-left:2px;
+        			cursor: pointer;
+        			margin-top:-2px;
+        		}
+        	}
+        }
+        .onlineList{
+        	width:pxTovh(515px);
+        	height:pxTovh(285px);
+        	overflow:hidden;
+        	background:#fff6e3;
+        	padding-right:pxTovh(10px);
+        	margin:0 auto;
+        	table{
+        		width:100%;
+        		tr:nth-of-type(odd){
+			        background:none;
+		         }
+                 tr:nth-of-type(even){
+        	        background:#ffe3a7;
+                 }
+        		td{
+        			font-weight:normal;
+        			color:#333;
+        			padding:5px 0;
+        			img{
+        				margin-right:2px;
+        			}
+        		}
+        	}
+        }
+	}
+	/*系统消息*/
+	.systemInfo{
+		width:pxTovh(514px);
+		height:pxTovh(245px);
+		background:#ffb961;
+		border-radius:pxTovh(10px) pxTovh(10px) 0 0;
+		position: absolute;
+		padding:0 pxTovh(18px);
+		right:0px;
+		top:pxTovh(436px);
+		border:1px solid #f9cf6b;
+		.systemTitle{
+			height:pxTovh(35px);
+			line-height:pxTovh(35px);
+			text-align:right;
+			color:#fff;
+			font-size:pxTovh(15px);
+			font-weight: bold;
+		}
+		.systemInfoList{
+			width:pxTovh(500px);
+			height:pxTovh(190px);
+			background:#fff6e3;
+			margin:0 auto;
+			overflow:hidden;
+			li{
+				padding:pxTovh(5px) 0 pxTovh(5px) pxTovh(15px);
+				span.tipIcon{
+					margin-right:2px;
+				}
+			}
+			li:nth-of-type(odd){
+			        background:none;
+		         }
+            li:nth-of-type(even){
+        	        background:#ffe3a7;
+            }
+		}
+	}
+}
+/*对弈界面*/
+.chessUi{
+	  width:100%;
+    height:100vh;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background:#f8e0ad;
+		cursor: pointer;
+    .chessUiBox{
+    	width:135vh;
+    	margin:pxTovh(45px) auto 0 auto;
+			height:100vh;
+    	position: relative;
+    }
+}
+.chessUiPeople{
+	width:22vh;
+	height:95vh;
+	//background:url(../images/chessui_bg.png) no-repeat;
+	position:absolute;
+	left:0px;
+	top:0px;
+	.chessPeopleOne{
+		text-align:center;
+		width:21.5vh;
+		height:40vh;
+		margin:0 auto 2vh auto;
+		padding-top:15px;
+		background:#ff9d84;
+		border:0.5vh solid #fff;
+		border-radius: 10px;
+		img{
+			width: pxTovh(90px);
+			height:pxTovh(90px);
+		}
+		h2{
+			color:#fff;
+			font-size:pxTovh(24px);
+			padding:pxTovh(15px) 0;
+		}
+		.chessCountdown{
+			width:pxTovh(140px);
+			height:pxTovh(50px);
+			background:#fff;
+			border-radius:pxTovh(40px);
+			text-align:center;
+			font-size:pxTovh(25px);
+			b{
+				display:inline-block;
+				border:2px solid #ff9d84;
+				border-radius:pxTovh(40px);
+				height:pxTovh(36px);
+				line-height:pxTovh(36px);
+				width:pxTovh(122px);
+				margin-top:pxTovh(5px);
+			}
+		}
+		.loading{
+			margin-top:pxTovh(20px);
+			height:pxTovh(60px);
+			position: relative;
+			img{
+				width: pxTovh(50px);
+				height: pxTovh(50px);
+				position: absolute;
+				z-index: 10;
+				left:50%;
+				margin-left:pxTovh(-25px);
+			}
+			span{
+				display: inline-block;
+				width: pxTovh(60px);
+				height: pxTovh(60px);
+				background:none;
+				position: absolute;
+				z-index: 9;
+				border-radius: 50%;
+				left:50%;
+				top:-5px;
+				margin-left:pxTovh(-30px);
+			}
+			span.move{
+				background:url(../images/loading.png) no-repeat;
+				background-size: cover;
+				-webkit-animation:qiumove 2s linear infinite;
+			  animation:qiumove 2s linear infinite;
+			}
+			@-webkit-keyframes qiumove{
+			  0%{-webkit-transform:rotate(0);}
+			  100%{-webkit-transform:rotate(360deg);}
+			}
+			@keyframes qiumove{
+			    0%{transform:rotate(0);}
+			  100%{transform:rotate(360deg);}
+			}
+		}
+
+		.time{
+			font-size:pxTovh(20px);
+			margin:pxTovh(15px) auto pxTovh(30px) auto;
+			.second{
+				display:inline-block;
+				width:pxTovh(48px);
+				height:pxTovh(30px);
+				background:url(../images/secend_bg.png) no-repeat;
+				background-size: cover;
+				text-align:center;
+				line-height:pxTovh(30px);
+				color:#fff;
+				font-size:pxTovh(27px);
+				font-weight:bold;
+			}
+			b{
+				color:#fff;
+				font-size:pxTovh(24px);
+			}
+		}
+		.tizi{
+			color:#fff;
+			font-size:pxTovh(16px);
+			padding-top:pxTovh(10px);
+			border-top:pxTovh(5px) solid #df6922;
+			b{
+				color:#000;
+				font-size:pxTovh(20px);
+				display:inline-block;
+				vertical-align:middle;
+				margin-left:pxTovh(5px);
+			}
+		}
+		.blackresult{
+			position: relative;
+			width: 100%;
+			img{
+				position: absolute;
+				top:-10px;
+				right:10px;
+				width:pxTovh(40px);
+				height:pxTovh(40px);
+			}
+		}
+	}
+	.chessPeopleTwo{
+		text-align:center;
+		width:21.5vh;
+		height:40vh;
+		margin:0 auto;
+		padding-top:15px;
+		border:0.5vh solid #fff;
+		border-radius: 10px;
+		background:#ffc34f;
+		img{
+			width: pxTovh(90px);
+			height:pxTovh(90px);
+		}
+		h2{
+			color:#fff;
+			font-size:pxTovh(24px);
+			padding:pxTovh(15px) 0;
+		}
+		.chessCountdown{
+			width: pxTovh(140px);
+			height: pxTovh(50px);
+			background:#fff;
+			border-radius:pxTovh(40px);
+			text-align:center;
+			font-size:pxTovh(25px);
+			b{
+				display:inline-block;
+				border:2px solid #ff9d84;
+				border-radius:pxTovh(40px);
+				height:pxTovh(36px);
+				line-height:pxTovh(36px);
+				width:pxTovh(122px);
+				margin-top:pxTovh(5px);
+			}
+		}
+		.loading{
+			margin-top:pxTovh(20px);
+			height:pxTovh(60px);
+			position: relative;
+			img{
+				width: pxTovh(50px);
+				height: pxTovh(50px);
+				position: absolute;
+				z-index: 10;
+				left:50%;
+				margin-left:pxTovh(-25px);
+			}
+			span{
+				display: inline-block;
+				width: pxTovh(60px);
+				height: pxTovh(60px);
+				background:none;
+				position: absolute;
+				z-index: 9;
+				border-radius: 50%;
+				left:50%;
+				top:-5px;
+				margin-left:pxTovh(-30px);
+			}
+			span.move{
+				background:url(../images/loading.png) no-repeat;
+				background-size: cover;
+				-webkit-animation:qiumove 2s linear infinite;
+			  animation:qiumove 2s linear infinite;
+			}
+			@-webkit-keyframes qiumove{
+			  0%{-webkit-transform:rotate(0);}
+			  100%{-webkit-transform:rotate(360deg);}
+			}
+			@keyframes qiumove{
+			    0%{transform:rotate(0);}
+			  100%{transform:rotate(360deg);}
+			}
+		}
+		.time{
+			font-size:pxTovh(20px);
+			margin:pxTovh(15px) auto pxTovh(30px) auto;
+			.second{
+				display:inline-block;
+				width:pxTovh(48px);
+				height:pxTovh(30px);
+				background:url(../images/secend_bg.png) no-repeat;
+				background-size: cover;
+				text-align:center;
+				line-height:pxTovh(30px);
+				color:#fff;
+				font-size:pxTovh(27px);
+				font-weight:bold;
+			}
+			b{
+				color:#fff;
+				font-size:pxTovh(24px);
+			}
+		}
+		.tizi{
+			color:#fff;
+			margin-bottom:pxTovh(20px);
+			font-size:pxTovh(16px);
+			padding-bottom:pxTovh(10px);
+			border-bottom:pxTovh(5px) solid #df6922;
+			b{
+				color:#000;
+				font-size:pxTovh(20px);
+				display:inline-block;
+				vertical-align:middle;
+				margin-left:5px;
+			}
+		}
+		.whiteresult{
+			position: relative;
+			width: 100%;
+			img{
+				position: absolute;
+				top:-10px;
+				right:10px;
+				width:pxTovh(40px);
+				height:pxTovh(40px);
+			}
+		}
+	}
+}
+.chessInfo{
+	width:pxTovh(230px);
+	height:86vh;
+	background:#fff2d9;
+	border-radius:10px;
+	position: absolute;
+	right:0px;
+	top:0px;
+	.chessInfoTitle{
+		width:pxTovh(230px);
+		height:pxTovh(97px);
+		background:url(../images/chess_info_bg.png) no-repeat;
+		background-size:contain;
+		margin:pxTovh(20px) auto;
+		color:#fff;
+		text-align:center;
+		h2{
+			font-size:pxTovh(23px);
+			padding:pxTovh(20px) 0 pxTovh(7px) 0;
+		}
+		p{
+			font-size:pxTovh(16px);
+		}
+	}
+	.chessInfoTools{
+		width:92%;
+		margin:0 auto;
+		input{
+			margin-bottom:pxTovh(5px);
+			width:pxTovh(100px);
+			height:pxTovh(48px);
+			border-radius:pxTovh(30px);
+			font-size:pxTovh(18px);
+		}
+		.chessControl{
+			input{
+				margin-right:5px;
+			}
+		}
+		p{
+			input[type="text"]{
+				width:pxTovh(80px);
+				height:pxTovh(33px);
+				border:1px solid #ffc453;
+				background:#fff;
+				margin-right:pxTovh(10px);
+			}
+			input[type="range"]{
+				width:100%;
+			}
+		}
+		.range{
+			padding:pxTovh(20px) 0 0 0;
+		}
+		.autodapu{
+			padding:pxTovh(20px) 0 pxTovh(25px) 0;
+		}
+	}
+	.chessSystemInfo{
+		border:pxTovh(5px) solid #ffc34f;
+		width:pxTovh(200px);
+		border-radius:pxTovh(5px);
+		height:pxTovh(470px);
+		h3{
+			background:#ff9d84;
+			color:#fff;
+			text-align:center;
+			width:pxTovh(95px);
+			height:pxTovh(20px);
+			line-height: pxTovh(20px);
+			font-size:12px;
+			margin:0 auto;
+			border-radius:pxTovh(15px);
+			font-weight: normal;
+			margin-top:pxTovh(20px);
+		}
+		p{
+			width:90%;
+			margin:0 auto;
+			font-size:14px;
+			padding:pxTovh(10px) 0;
+		}
+		p.tc{
+			padding:0px;
+			font-size:12px;
+		}
+		.roomusers{
+			text-align: left;
+			line-height: 170%;
+			font-size:14px;
+			padding:pxTovh(15px) 0 pxTovh(15px) pxTovh(20px);
+			border-bottom:1px solid #e3e3e3;
+			height:pxTovh(180px);
+			overflow-x: hidden;
+			overflow-y: scroll;
+		}
+		#roommessage{
+			height:pxTovh(180px);
+			overflow-x: hidden;
+			overflow-y: scroll;
+		}
+	}
+}
+.chessUI {
+	position:absolute;
+	left:0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	border:5px solid #fff;
+	border-radius:5px;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+.chessUIbg{
+	position:absolute;
+	left:0;
+	width: 100%;
+	height: 100%;
+	z-index:9;
+	border:5px solid #fff;
+	border-radius:5px;
+	cursor:pointer;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+.chessUI canvas {
+	position:	absolute;
+	width:		100%;
+	height:		100%;
+	top:		0;
+	left:		0;
+	right:		0;
+	bottom:		0;
+}
+.container {
+			max-width: 950px;
+			margin: 0 auto;
+}
+
+/*回顾工具*/
+.replaygoTools{
+  position: absolute;
+	width: 100%;
+	left:0;
+	bottom:pxTovh(-60px);
+	input[type='button']{
+		padding:0px 10px;
+		height: pxTovh(30px);
+		color:#fff;
+		font-weight: bold;
+		background:#ccc;
+		text-align: center;
+		line-height:pxTovh(30px);
+		margin:0 3px;
+		background:#ffb400;
+		border:none;
+	}
+	input[type='range']{
+		height:pxTovh(20px);
+		width:38vh;
+	}
+	input[type='text']{
+		height:pxTovh(28px);
+		border:1px solid #ffb400;
+		width:pxTovh(40px);
+		margin:0 3px;
+		text-align: center;
+	}
+}
+
+/*新增棋盘*/
+.chessPanUI{
+	width:85vh;
+	margin:0 auto;
+	height:85vh;
+	position: relative;
+}

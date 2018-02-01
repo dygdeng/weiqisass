@@ -1,0 +1,47 @@
+.studentTask{
+	width:90%;
+	margin:50px auto;
+	h2{
+		text-align:center;
+		font-size:25px;
+		padding-bottom:40px;
+		b{
+			display:inline-block;
+			margin:0 5px;
+		}
+		.true{
+			font-size:60px;
+			color:#57b693;
+		}
+		.error{
+			font-size:60px;
+			color:#ffb400;
+		}
+	}
+    .studentTaskList{
+    	width:90%;
+    	margin:50px auto 100px auto;
+    	text-align:center;
+    	span{
+    		display:inline-block;
+    		width:70px;
+    		height:69px;
+    		position: relative;
+    		margin-right:-4px;
+    		color:#fff;
+    		text-align:center;
+    		line-height:130%;
+    		padding-top:30px;
+    		b{
+    			top:-7px;
+    			left:30px;
+    		}
+    	}
+    	.taskTrue{
+    		background:#57b693;
+    	}
+    	.taskError{
+    		background:#ffb400;
+    	}
+    }
+}

@@ -1,0 +1,816 @@
+/*我的班级*/
+.my{
+	width:1200px;
+	position: relative;
+	margin:0 auto;
+	.myNav{
+		float:left;
+		width:235px;
+		background:#ffb400;
+		height:1000px;
+		ul{
+			margin-top:20px;
+			box-sizing:inherit;
+			li{
+				width:auto;
+				text-align:left;
+				padding:15px 0 15px 30%;
+				font-size:14px;
+				box-sizing:inherit;
+				b{
+					font-weight: normal;
+					span{
+						vertical-align:middle;
+						margin-right:10px;
+					}
+					em{
+						margin-left:10px;
+					}
+				}
+				dl{
+					width:80%;
+					margin:10px 0 0 5px;
+					box-sizing:inherit;
+					dt{
+						background:url(../images/dian.png) no-repeat left center;
+						padding:5px 0 5px 25px;
+						box-sizing:inherit;
+					}
+				}
+			}
+			li.active{
+				background:#ff7800;
+				color:#fff;
+			}
+		}
+	}
+	.myContent{
+		width:945px;
+		float:right;
+		.myTitle{
+			width:100%;
+			height:60px;
+			padding:30px 0 0 0;
+			margin-bottom:30px;
+			border-bottom:10px solid #fff8dc;
+			.titleIcon{
+				float:left;
+				margin-right:20px;
+			}
+			h3{
+				font-size:20px;
+				padding-bottom:5px;
+			}
+			p{
+				font-size:14px;
+				color:#808080;
+			}
+		}
+	}
+}
+/*我的成果*/
+.myResult{
+	h3{
+		font-size:18px;
+		padding:20px 0;
+		text-indent:1em;
+		img{
+			vertical-align:middle;
+			margin-left:10px;
+		}
+	}
+	.line{
+		width:100%;
+		height:10px;
+		background:#fff8dc;
+		clear:both;
+		margin-top:15px;
+	}
+	.myResultTitle{
+		width:945px;
+		height:auto;
+		padding:10px 0;
+		background:#fff8dc;
+		margin-top:20px;
+		position: relative;
+		h3{
+			font-size:26px;
+			position: absolute;
+			top:55px;
+			left:30px;
+			b{
+				color:#57b693;
+				margin:0 5px;
+			}
+		}
+		.jiayou{
+			display:inline-block;
+			width:119px;
+			height:64px;
+			position: absolute;
+			left:340px;
+			top:35px;
+			background:url(../images/jiayou.jpg) no-repeat;
+		}
+		.trainDan{
+			// position: absolute;
+			width:740px;
+			height:90px;
+			// top:15px;
+			// right:35px;
+			p{
+				color:#696969;
+				padding:5px 0;
+				width:700px;
+				position: relative;
+				span{
+					font-size:13px;
+					float:right;
+				}
+				span.bf3{
+					position: absolute;
+					left:30%;
+				}
+				span.bf7{
+					position: absolute;
+					left:70%;
+				}
+				span.bf10{
+					position: absolute;
+					left:100%;
+				}
+			}
+			p.trainDanBox{
+				width:700px;
+				height:20px;
+				padding:0px;
+				overflow:hidden;
+				position: relative;
+				background:#e3e3e3;
+				b.trainDanBoxLine{
+					display:inline-block;
+					width:0%;
+					height:20px;
+					background:#fcf299;
+					position: absolute;
+					left:0px;
+					top:0px;
+					z-index: 10;
+				}
+				b.trainDanBoxLine1{
+					display:inline-block;
+					width:70%;
+					height:20px;
+					background:#efeaea;
+					position: absolute;
+					left:0px;
+					top:0px;
+					z-index: 9;
+				}
+				b.trainDanBoxLine2{
+					display:inline-block;
+					width:30%;
+					height:20px;
+					background:#d3d0d0;
+					position: absolute;
+					left:0px;
+					top:0px;
+					z-index: 9;
+				}
+
+			}
+			.trainDanBox1{
+				width:700px;
+				height:20px;
+				padding:0px;
+				overflow:hidden;
+				position: relative;
+				background:#e3e3e3;
+				.trainDanBoxLine{
+					display:inline-block;
+					width:0%;
+					height:20px;
+					background:#fcf299;
+					position: absolute;
+					right:0px;
+					top:0px;
+					z-index: 10;
+				}
+				b.trainDanBoxLine1{
+					display:inline-block;
+					width:70%;
+					height:20px;
+					background:#efeaea;
+					position: absolute;
+					left:0px;
+					top:0px;
+					z-index: 9;
+				}
+				b.trainDanBoxLine2{
+					display:inline-block;
+					width:30%;
+					height:20px;
+					background:#d3d0d0;
+					position: absolute;
+					left:0px;
+					top:0px;
+					z-index: 9;
+				}
+			}
+		}
+	}
+	.myResultChess{
+		width:100%;
+		.myResultChess_left{
+			float:left;
+			width:390px;
+			h3{
+				margin-bottom:30px;
+			}
+			li{
+				font-size:16px;
+				padding:10px 0;
+				span{
+					vertical-align:middle;
+					margin-right:28px;
+					margin-left:70px;
+				}
+				b{
+					color:#35c8b5;
+					font-size:24px;
+					margin-left:5px;
+				}
+				p{
+					font-size:14px;
+				}
+			}
+		}
+		.myResultChess_right{
+			float:left;
+			width:500px;
+		}
+		.more{
+			font-size:16px;
+			text-align:right;
+			padding-bottom:30px;
+			padding-top:10px;
+			a{
+				color:#d00;
+			}
+		}
+	}
+	.myResultTrain{
+	   width:100%;
+		.myResultChess_left{
+			float:left;
+			width:390px;
+		    padding-top:30px;
+			li{
+				font-size:16px;
+				padding:10px 0;
+				span{
+					vertical-align:middle;
+					margin-right:28px;
+					margin-left:70px;
+				}
+				b{
+					color:#35c8b5;
+					font-size:24px;
+					margin-left:5px;
+				}
+				p{
+					font-size:14px;
+				}
+			}
+		}
+		.myResultChess_right{
+			float:left;
+			width:500px;
+		}
+		.more{
+			font-size:16px;
+			text-align:right;
+			padding-bottom:30px;
+			padding-top:10px;
+			a{
+				color:#d00;
+			}
+		}
+	}
+}
+/*我的同学*/
+.myClassmate{
+	li{
+		float:left;
+		width:125px;
+		height:190px;
+		border:1px solid #dfdfdf;
+		margin-right:10px;
+		position: relative;
+		padding:25px 0 0 20px;
+		margin-top:15px;
+		h3{
+			margin-top:13px;
+		}
+		p{
+			padding:1px 0;
+		}
+		input{
+			width:111px;
+			height:35px;
+			position: absolute;
+			bottom:10px;
+			left:15px;
+			font-size:14px;
+		}
+	}
+	li.online{
+		background:#2ec7c9;
+		color:#fff;
+		.lineStatus{
+			display:inline-block;
+			width:55px;
+			height:22px;
+			background:url(../images/line_bg.png) no-repeat;
+			position: absolute;
+			right:-5px;
+			top:15px;
+			text-align:center;
+			line-height:19px;
+			color:#fff;
+		}
+		input{
+			background:#35c8b5;
+			color:#fff;
+			border:3px solid #fff;
+			border-radius:20px;
+		}
+	}
+	li.offline{
+		background:#ececec;
+		color:#808080;
+		.lineStatus{
+			display:inline-block;
+			width:55px;
+			height:22px;
+			background:url(../images/offline_bg.png) no-repeat;
+			position: absolute;
+			right:-5px;
+			top:15px;
+			text-align:center;
+			line-height:19px;
+			color:#fff;
+		}
+		input{
+			background:#a9a9a9;
+			color:#fff;
+			border:3px solid #fff;
+			border-radius:20px;
+		}
+	}
+}
+/*我的对弈*/
+.myChessdata{
+	width:100%;
+	height:80px;
+	background:#fff8dc;
+	margin:25px auto 15px auto;
+	li{
+		float:left;
+		font-size:16px;
+		padding-right:10px;
+		padding-left:15px;
+		line-height: 80px;
+		span{
+			vertical-align:middle;
+			margin-right:8px;
+		}
+		b{
+			color:#35c8b5;
+			font-size:24px;
+			margin-left:5px;
+		}
+		p{
+			font-size:14px;
+		}
+	}
+}
+.myChessEchart{
+	li{
+		float:left;
+		width:24.8%;
+		text-align:center;
+		h3{
+			font-size:20px;
+			text-align:center;
+			padding:15px 0;
+		}
+	}
+	p.bottom{
+      border-bottom:10px solid #fff8dc;
+      text-align:right;
+      color:#ff6600;
+      font-size:13px;
+      padding-top:30px;
+      padding-bottom:10px;
+      span{
+      	cursor: pointer;
+      	margin-right:15px;
+      }
+      b{
+      	margin-left:2px;
+      }
+	}
+}
+/*我的棋谱列表*/
+.myQipuList{
+	.myChessTitle{
+		width:100%;
+		padding:15px 0;
+		h3{
+			float:left;
+			margin-top:5px;
+			margin-right:20px;
+			font-size:20px;
+			b{
+				color:#ff7b00;
+			}
+		}
+		select{
+			height:30px;
+			border-radius:5px;
+			padding:0 20px;
+			border:1px solid #bababa;
+		}
+		span{
+			float:right;
+			color:#cbcbcb;
+			font-size:22px;
+			font-weight:bold;
+			display:inline-block;
+			b{
+				margin:0 5px;
+				vertical-align:middle;
+			}
+		}
+	}
+	.myQipuListContent{
+		li{
+			background:#eaf1ff;
+			width:415px;
+			height:230px;
+			border:1px solid #eaeaea;
+			padding:15px 0 0 45px;
+			position: relative;
+			float:left;
+			margin:10px 5px;
+			p{
+				font-size:14px;
+				padding-bottom:10px;
+			}
+			table{
+				td{
+					text-align:center;
+					padding:0 15px;
+					h3{
+						font-size:15px;
+						padding:5px 0;
+					}
+					.vsIcon{
+						margin-top:10px;
+					}
+					b{
+						font-size:20px;
+						display:inline-block;
+						padding:0 0 10px 0;
+					}
+					p{
+						font-size:13px;
+					}
+				}
+			}
+			span.new{
+                display:inline-block;
+                width:35px;
+                height:35px;
+                background:#ffb406;
+                text-align:center;
+                font-size:16px;
+                color:#fff;
+                line-height:35px;
+                border-radius:50%;
+                position: absolute;
+                top:15px;
+                right:55px;
+			}
+			.huos{
+				display:inline-block;
+				width:54px;
+				height:18px;
+				background:url(../images/huosheng_bg.png) no-repeat;
+				text-align:center;
+				color:#fff;
+				padding-top:20px;
+				position: absolute;
+                top:80px;
+                right:40px;
+			}
+			.shoumu{
+				color:#ff0000;
+				font-size:14px;
+				position: absolute;
+                top:135px;
+                right:40px;
+			}
+			.chakanBox{
+				text-align:center;
+				background:#fff;
+				position: absolute;
+				bottom:0px;
+				left:0px;
+				width:100%;
+				padding:5px 0;
+			}
+		}
+	}
+}
+.myListTable{
+		td{
+			padding:15px 0;
+			text-align:center;
+			a{
+				color:#ff6600;
+			}
+		}
+		tr:nth-of-type(odd){
+			background:#fff2d7;
+		}
+        tr:nth-of-type(even){
+        	background:#fff;
+        }
+       tr.myListTitle{
+       	 background:#ffb400;
+       	 font-size:14px;
+       }
+}
+/*我的作业*/
+.myTaskInfo{
+	background:#f5f5f5;
+	height:400px;
+	width:885px;
+	margin-top:20px;
+	position: relative;
+	padding:30px;
+	.myTaskTongji{
+	 float:left;
+	  width:295px;
+	  border-right:2px solid #ffb400;
+	  p{
+	  	font-size:24px;
+	  	color:#35c8b5;
+	  	padding:8px 0;
+	  	span{
+	  		display:inline-block;
+	  		width:150px;
+	  		color:#333;
+	  		font-size:16px;
+	  		b{
+	  			margin-right:10px;
+	  		}
+	  	}
+	  }
+    }
+    .myErrorTongji{
+    	float:right;
+    	width:580px;
+    	div{
+    		float:left;
+    		margin:0 20px 0 50px;
+    	}
+    	h3{
+    		font-size:20px;
+    		padding:30px 0 10px 0;
+    	}
+    	p{
+    		font-size:13px;
+    		span{
+    			margin-left:20px;
+    			display:inline-block;
+    			width:10px;
+    			height:10px;
+    			margin-right:1px;
+    		}
+    		span:nth-child(1){
+                margin-left:0px;
+                background:#d87a80;
+    		}
+    		span:nth-child(2){
+                background:#5ab1ef;
+    		}
+    		span:nth-child(3){
+                background:#b6a2de;
+    		}
+    		span:nth-child(4){
+                background:#2ec7c9;
+    		}
+    		span:nth-child(5){
+                background:#ffb980;
+    		}
+    	}
+    }
+    .myZhengquelv{
+    	width: 100%;
+    	margin-top:15px;
+    	float:left;
+    	h3{
+    		padding:10px 0;
+    		font-size: 20px;
+    	}
+    }
+}
+/*我的训练块状*/
+.myXulianList{
+	li{
+		    background:#ffffff;
+			width:270px;
+			height:190px;
+			border:1px solid #eaeaea;
+			padding:15px;
+			position: relative;
+			float:left;
+			margin:10px 8px 10px 5px;
+			h3{
+				font-size: 16px;
+				span{
+					color: #878787;
+					font-size: 12px;
+					float:right;
+					font-weight: normal;
+				}
+			}
+			p{
+				padding:5px 0;
+				font-size: 13px;
+				b{
+					font-weight: normal;
+					float:right;
+				}
+			}
+			.tiTrue{
+				span{
+					display: inline-block;
+					width: 32px;
+					height: 32px;
+					background:#ffb400;
+					text-align:center;
+					line-height:32px;
+					font-size: 18px;
+					color:#fff;
+					border-radius:50%;
+					margin:4px 3px;
+				}
+				span.active{
+					background:#5d5d5d;
+				}
+			}
+			.chakanBox{
+				text-align:center;
+				background:#fafafa;
+				position: absolute;
+				bottom:0px;
+				left:0px;
+				width:100%;
+				padding:10px 0;
+			}
+	}
+}
+/*我的作业*/
+.myZuoyeList{
+	li{
+		    background:#fff;
+			width:430px;
+			height:230px;
+			border:1px solid #eaeaea;
+			padding:15px;
+			position: relative;
+			float:left;
+			margin:10px 5px;
+			img{
+				float:left;
+				margin-right:15px;
+			}
+			h3{
+				font-size: 18px;
+				padding:5px 0;
+				b{
+					font-weight:normal;
+				}
+			}
+			h4{
+				font-size: 16px;
+				font-weight: normal;
+				padding-bottom:5px;
+			}
+			p{
+				padding:3px 0;
+				font-size: 14px;
+			}
+			.chakanBox{
+				text-align:center;
+				background:#fff;
+				position: absolute;
+				bottom:0px;
+				left:0px;
+				width:100%;
+				padding:5px 0;
+				border-top:1px solid #e3e3e3;
+			}
+	}
+}
+/*用户对弈棋谱列表*/
+.userChessInfo{
+	width:1200px;
+	margin:0 auto;
+	padding:30px 0;
+	h3{
+		font-size:20px;
+		padding-bottom:20px;
+	}
+}
+/*作业*/
+.taskTitle{
+	width:94%;
+	background:#fff8dc;
+	padding:30px 3%;
+	margin-top:20px;
+	margin-bottom:20px;
+	h2{
+		font-size:20px;
+		font-weight: bold;
+		float:left;
+	}
+	h3{
+		font-size:20px;
+		font-weight: normal;
+		float:right;
+		margin-right:200px;
+		b{
+			color:#57b693;
+			font-size:35px;
+		}
+	}
+}
+.taskList{
+	li{
+		  background:#fff;
+			width:418px;
+			height:200px;
+			border:1px solid #eaeaea;
+			padding:20px;
+			position: relative;
+			float:left;
+			margin:10px 5px;
+			img{
+				float:left;
+				margin-right:15px;
+			}
+			h3{
+				font-size: 18px;
+				padding:5px 0;
+				b{
+					font-weight:normal;
+				}
+			}
+			h4{
+				font-size: 16px;
+				font-weight: normal;
+				padding-bottom:5px;
+			}
+			p.time{
+				padding:15px 0;
+				font-size: 14px;
+				clear:both;
+			}
+			p.tc{
+				border-top:1px solid #f1f1f1;
+				padding:5px 0;
+				width:100%;
+				position: absolute;
+				bottom:0px;
+				left:0px;
+			}
+			.news{
+				text-align:center;
+				background:#ffb400;
+				position: absolute;
+				font-size:22px;
+				line-height:50px;
+				color:#fff;
+				top:20px;
+				right:20px;
+				width:50px;
+				height:50px;
+				border-radius:50%;
+			}
+	}
+}

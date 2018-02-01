@@ -1,0 +1,314 @@
+/*====
+editer:adams
+updataTime:2018.01.19
+====*/
+@charset "utf-8";
+@import 'components/reset/reset.scss';
+@import "components/mixin/mixin.scss";
+
+@import "general.scss";
+@import "input.scss";
+/*通用顶部*/
+@import "header.scss";
+body{
+  //overflow-y:hidden;
+}
+/*首页*/
+.indexFocus{
+  width:100%;
+  height:550px;
+  overflow:hidden;
+  margin:0 auto;
+  position: relative;
+}
+.indexNotice{
+  width:1200px;
+  margin:0 auto;
+  padding:50px 0;
+  position: relative;
+  height:200px;
+  h1{
+    text-align:center;
+    padding:10px 0;
+  }
+  .time{
+    position: absolute;
+    left:225px;
+    top:163px;
+    width:140px;
+    text-align:right;
+    h2{
+      font-size:50px;
+      color:#ffb400;
+      padding-bottom:15px;
+    }
+    h3{
+      font-size:20px;
+      color:#808080;
+      margin-right:10px;
+    }
+  }
+  .indexNoticeContent{
+    position: absolute;
+    left:430px;
+    width:520px;
+    top:163px;
+    h4{
+      font-size:16px;
+      padding-bottom:10px;
+    }
+    p{
+      font-size:13px;
+      color:#808080;
+    }
+  }
+}
+.indexNav{
+  width:100%;
+  height:200px;
+  background:#f7f7f7;
+  margin:0 auto;
+  text-align:center;
+  padding-top:40px;
+  img{
+    margin:0 70px;
+  }
+}
+.indexLink{
+  width:1200px;
+  margin:0 auto;
+  padding:70px 0 30px 0;
+  height:160px;
+  position: relative;
+  .indenLinkBox{
+    width:200px;
+    height:120px;
+    border-right:1px solid #d4d4d4;
+    float:left;
+    text-align:center;
+    h3{
+      font-size:15px;
+      padding-bottom:20px;
+    }
+    li{
+      padding-bottom:5px;
+      font-size:13px;
+    }
+  }
+  .indexLinkContent{
+    position: absolute;
+    right:0px;
+    width:395px;
+    font-size:13px;
+    line-height:180%;
+    img{
+      float:left;
+      margin-right:20px;
+    }
+  }
+}
+/*学生注册*/
+.studentReg{
+  margin:40px auto;
+  .regTitle{
+    border-bottom:1px solid #ffb400;
+    text-align:right;
+    height:45px;
+    font-size:16px;
+    h2{
+      font-size:20px;
+      font-weight: bold;
+      position:absolute;
+      left:0px;
+      top:0px;
+      span{
+        font-size:16px;
+        font-weight:normal;
+        margin-left:20px;
+        b{
+          color:#d00;
+        }
+      }
+    }
+    a{
+      color:#e33d2b;
+    }
+  }
+  .regList{
+    text-align:center;
+    h3{
+      font-size:20px;
+    }
+    p{
+      padding:10px 0;
+      font-size:14px;
+      input{
+        vertical-align:middle;
+      }
+      a{
+        color:#ffb80f;
+      }
+      span{
+        display:inline-block;
+        width:100px;
+      }
+      a.red{
+        color:#d00;
+      }
+    }
+  }
+  .regListContent{
+    width:400px;
+    margin:0 auto;
+    p{
+      span{
+        width:60px;
+      }
+      strong{
+        font-weight:normal;
+        font-size:14px;
+        display:inline-block;
+        width:80px;
+        text-align:right;
+        margin-right:15px;
+      }
+      select{
+        width:275px;
+        height:40px;
+        border-radius:7px;
+      }
+    }
+    .changeFace{
+      padding:10px 0;
+      position: relative;
+      height:120px;
+      strong{
+        font-weight:normal;
+        font-size:14px;
+        display:inline-block;
+        width:80px;
+        text-align:right;
+        margin-right:15px;
+      }
+      div{
+        width:85px;
+        height:90px;
+        border:1px solid #bababa;
+        background:#35c8b5;
+        border-radius:7px;
+        position: absolute;
+        left:95px;
+        top:10px;
+        text-align:center;
+        padding-top:17px;
+        a{
+          display:inline-block;
+          background:#fff;
+          width:100%;
+          height:20px;
+          text-align:center;
+          position: absolute;
+          bottom:0px;
+          left:0px;
+          border-radius:0px 0 5px 5px;
+        }
+      }
+    }
+  }
+}
+/*顶部个人信息*/
+.topMyInfo{
+  width:100%;
+  height:150px;
+  background:#424242;
+  .w1200{
+    height:105px;
+    position: relative;
+    padding-left:120px;
+    padding-top:45px;
+    width:1080px;
+    background:url(../images/mytop.jpg) no-repeat top right;
+    .face{
+      position: absolute;
+      left:0px;
+      top:35px;
+    }
+    h1{
+      color:#fff;
+      font-size:20px;
+      padding-bottom:10px;
+    }
+    p{
+      color:#ffb400;
+      font-size:14px;
+      padding-bottom:3px;
+    }
+  }
+}
+/*登录*/
+.loginSet{
+    width:500px;
+    margin:20px auto;
+    p{
+      padding:15px 0;
+      text-align:left;
+      font-size: 14px;
+      span{
+        display:inline-block;
+        text-align:right;
+        width:110px;
+        padding-right:10px;
+      }
+      a.red{
+        color:#d00;
+        float:right;
+      }
+    }
+  }
+/*帮助*/
+.help{
+  width:1000px;
+  margin:0 auto;
+  padding:20px;
+  h2{
+    font-size:30px;
+    margin-bottom:30px;
+    padding-bottom: 10px;
+    margin-top:20px;
+    text-align: center;
+  }
+  h3{
+    font-size:24px;
+    border-bottom:1px solid #e3e3e3;
+    margin-top:20px;
+    padding-bottom:10px;
+    margin-bottom:10px;
+  }
+  p{
+    padding:5px 0;
+    line-height:170%;
+    margin-bottom:5px;
+    font-size:14px;
+  }
+}
+
+/*教师部分*/
+@import "teacher.scss";
+/*对弈大厅*/
+@import "chess.scss";
+/*弹出窗口*/
+@import "tip.scss";
+/*账号管理*/
+@import "account.scss";
+/*我的*/
+@import "my.scss";
+/*训练*/
+@import "train.scss";
+/*作业*/
+@import "task.scss";
+/*做作业*/
+@import "goprob.scss";
+/*移动版本*/
+@import "mobile.scss";
+/*版权部分*/
+@import "footer.scss";

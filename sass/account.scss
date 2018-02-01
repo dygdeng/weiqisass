@@ -1,0 +1,338 @@
+.accountManage{
+	width:1200px;
+	margin:0 auto;
+	.myNav{
+		float:left;
+		width:235px;
+		background:#ffb400;
+		height:1000px;
+		ul{
+			margin-top:20px;
+			li{
+				width:70%;
+				text-align:left;
+				padding:15px 0 15px 30%;
+				font-size:14px;
+				b{
+					font-weight: normal;
+					span{
+						vertical-align:middle;
+						margin-right:10px;
+					}
+					em{
+						margin-left:10px;
+					}
+				}
+				dl{
+					width:80%;
+					margin:10px 0 0 5px;
+					dt{
+						background:url(../images/dian.png) no-repeat left center;
+						padding:5px 0 5px 25px;
+					}
+					dt.active{
+						font-weight: bold;
+					}
+				}
+			}
+			li.active{
+				background:#ff7800;
+				color:#fff;
+			}
+		}
+	}
+	.accountLeft{
+		float:left;
+		width:235px;
+		background:#ffb400;
+		height:1000px;
+		.face{
+			margin-top:40px;
+			text-align:center;
+		}
+		h3{
+			text-align:center;
+			padding:10px 0 15px 0;
+			color:#9b5e44;
+			font-size:20px;
+		}
+		p{
+			text-align:center;
+			padding:5px 0;
+			font-size:16px;
+			span{
+				background:#fff;
+				border-radius:15px;
+				display:inline-block;
+				height:27px;
+				padding:0 10px;
+				font-style:16px;
+				color:#9b5e44;
+				line-height:27px;
+				vertical-align:middle;
+				margin-left:5px;
+			}
+		}
+		h4{
+			color:#9b5e44;
+			font-size:20px;
+			padding-left:50px;
+			margin-top: 40px;
+			margin-bottom:10px;
+		}
+		ul{
+			display:inline-block;
+			width:100%;
+			li{
+				height:45px;
+				padding-left:65px;
+				line-height:45px;
+				cursor:pointer;
+				b{
+					display:inline-block;
+					width:6px;
+					height:10px;
+					background:url(../images/left_jiao.png) no-repeat;
+					vertical-align:middle;
+					margin-right:5px;
+					font-size:14px;
+				}
+			}
+			li.active{
+				background:#ff7800;
+				color:#fff;
+				b{
+					background:url(../images/left_jiao_bai.png) no-repeat;
+				}
+			}
+		}
+	}
+	.accountContent{
+		width:920px;
+		float:right;
+		h2{
+			margin-top:90px;
+			text-align:center;
+			font-size:30px;
+			color:#333333;
+			margin-bottom: 45px;
+		}
+	}
+}
+/*手机设置*/
+.mobileSet{
+	width:665px;
+	margin:0 auto;
+	.mobileTitle{
+		border-bottom:1px dashed #e8e8e8;
+		padding-bottom:20px;
+		span.mobileIcon{
+			float:left;
+			margin-right:15px;
+			margin-left:60px;
+		}
+		h3{
+			font-size:20px;
+			padding:10px 0;
+			b{
+				font-size:14px;
+				margin-left:5px;
+				font-weight:normal;
+				color:#808080;
+			}
+		}
+		p{
+			font-size:16px;
+			color:#808080;
+			b{
+				color:#35c8b5;
+			}
+		}
+	}
+	.mobileTitleSmall{
+		border-bottom:1px dashed #e8e8e8;
+		padding:20px 0 20px 110px;
+		position: relative;
+		a{
+			display:inline-block;
+			width:100px;
+			height:37px;
+			background:#ffb70b;
+			font-size:16px;
+			color:#fff;
+			text-align:center;
+			line-height:37px;
+			border-radius:8px;
+			position: absolute;
+			right:10px;
+			top:40px;
+		}
+		span.safeIconMobile{
+			position: absolute;
+			top:20px;
+			left:60px;
+		}
+		span.safeIconLogin{
+			position: absolute;
+			top:20px;
+			left:60px;
+		}
+		h3{
+			font-size:16px;
+			padding:5px 0;
+			b{
+				font-size:14px;
+				margin-left:5px;
+				font-weight:normal;
+				color:#808080;
+			}
+		}
+		p{
+			font-size:14px;
+			color:#808080;
+			padding-top:8px;
+			b{
+				color:#35c8b5;
+			}
+		}
+	}
+}
+.mobileSetContent{
+		width:400px;
+		margin:20px auto;
+		p{
+			padding:7px 0;
+			text-align:left;
+			span{
+				display:inline-block;
+				text-align:right;
+				width:110px;
+				padding-right:10px;
+			}
+		}
+	}
+/*登录密码*/
+.loginTitle{
+	 border-bottom:1px dashed #e8e8e8;
+     padding-bottom:20px;
+     height:70px;
+     line-height:70px;
+     font-size:20px;
+     span.loginIcon{
+			float:left;
+			margin-right:15px;
+			margin-left:260px;
+	}
+}
+/*个人信息*/
+.userInfo{
+	width:845px;
+	margin:30px auto;
+	position:relative;
+	.infoTitle{
+		width:100%;
+		border-bottom:1px solid #dfdfdf;
+		height:45px;
+		position: relative;
+		margin-top:33px;
+		margin-bottom:10px;
+		h3{
+			font-size:30px;
+			position: absolute;
+			left:0px;
+			top:0px;
+			font-weight: normal;
+		}
+		a{
+			position: absolute;
+			right:0px;
+			top:10px;
+			color:#ff6600;
+			font-size:16px;
+			span{
+				vertical-align:bottom;
+				margin-right:3px;
+			}
+		}
+	}
+	p{
+		padding:15px 0;
+		font-size:14px;
+		span{
+			display:inline-block;
+			width:100px;
+			text-align:left;
+			padding-right:20px;
+			color:#808080;
+		}
+		b{
+			display:inline-block;
+			width:60px;
+		}
+		select{
+        width:125px;
+        height:40px;
+        border-radius:7px;
+        margin-right:5px;
+        }
+	}
+	.face{
+		position: absolute;
+		right:150px;
+		top:70px;
+		img{
+			border:1px solid #bababa;
+			padding:20px;
+		}
+	}
+}
+/*界面设置*/
+.uiSetting{
+	width:560px;
+	height:auto;
+	margin:0 auto;
+	h4{
+		padding:10px 0 10px 0;
+		font-size:16px;
+	}
+	ul.pan{
+		li{
+			float:left;
+			width:104px;
+			height:104px;
+			margin-right:25px;
+			position: relative;
+			text-align:center;
+			img{
+				width:105px;
+				height: 105px;
+			}
+		}
+		li.active{
+			b{
+              display:inline-block;
+              position: absolute;
+              right:0px;
+              bottom:0px;
+              width:31px;
+              height:31px;
+              background:url(../images/true.png) no-repeat;
+			}
+		}
+	}
+	ul.qizi{
+        li{
+			float:left;
+			width:104px;
+			height:45px;
+			line-height:45px;
+			margin-right:25px;
+			position: relative;
+			text-align:center;
+		}
+		li.active{
+			background:#35c8b5;
+			border-radius:3px;
+		}
+	}
+}
