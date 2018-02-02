@@ -762,6 +762,15 @@
 	font-size:20px;
 	font-weight:bold;
 }
+.answerInput{
+	background:#fff;
+	border:1px solid #e3e3e3;
+	width:100px;
+	height:30px;
+	font-size:14px;
+	font-weight:bold;
+	display: none;
+}
 /*关闭状态*/
 .disabled{
 	background:#ccc;
